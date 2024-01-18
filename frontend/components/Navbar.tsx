@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
+import { LogoSVG } from "./svgs/LogoSVG";
 const navigations = [
  
     {
@@ -26,7 +27,7 @@ export default function Navbar(){
         <div className={styles.nav_container} >
           <Link href={"/"}>
             <div className="flex gap-2">
-        <Image src="/logo.svg" width={50} className="rounded-full" height={50} alt='logo'></Image>
+          <LogoSVG />
                 <div className="flex flex-col justify-center">
                 <p className="text-yellow200 font-bold tracking-[0.16rem]">BITVERSE</p>
                 <p className="text-white font-bold text-[0.54rem] tracking-[0.63rem]">FINANCE</p>

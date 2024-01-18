@@ -16,11 +16,14 @@ const config: Config = {
       colors: {
         coffee100: "rgba(92, 79, 5, 0.44)",
         coffee200: "rgba(219, 184, 0, 0.20)",
+        coffee300: "#211D0D",
         gray100: "rgba(255, 255, 255, 0.31)",
         yellow200: "#FFC603",
         yellow300: "#F9D326",
+        yellow400: "#FECC00",
         white: '#ffffff', 
-        black: "#000000" 
+        black: "#000000" ,
+        black100: '#0D0E11'
       },
       
     },
