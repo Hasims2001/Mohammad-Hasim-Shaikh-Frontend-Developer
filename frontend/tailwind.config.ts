@@ -13,7 +13,29 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        coffee100: "rgba(92, 79, 5, 0.44)",
+        coffee200: "rgba(219, 184, 0, 0.20)",
+        coffee300: "#211D0D",
+        gray100: "rgba(255, 255, 255, 0.31)",
+        gray200: "#CFCFCF",
+        gray300: "rgba(255, 255, 255, 0.60)",
+        yellow200: "#FFC603",
+        yellow300: "#F9D326",
+        yellow400: "#FECC00",
+        white: '#ffffff', 
+        black: "#000000" ,
+        black100: '#0D0E11',
+        black200: "#141411",
+        black300: "#0E0E0E",
+        black400: "#1C1C1C",
+        black500: "#151821"
+      },
+      
     },
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+  },
   },
   plugins: [],
 }

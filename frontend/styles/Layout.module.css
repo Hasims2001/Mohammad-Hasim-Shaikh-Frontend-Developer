@@ -1,0 +1,7 @@
+.wrapper{
+    color: #fff;
+    min-height: 100vh;
+   
+    background: linear-gradient(0deg, rgba(14, 14, 14, 0.00) 0%, #0E0E0E 100%), url("../public//Gradient.png") no-repeat, lightgray 0px -762px / 100% 185.908%;
+
+}
