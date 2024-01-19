@@ -7,7 +7,8 @@ import { InstagramSVG } from "./svgs/InstagramSVG";
 export default function Footer(){
 
     return (
-        <div className="m-[auto]">
+        
+        <div className="m-[auto] pt-80 bg-black300">
             <div className={styles.container}>
                 <p className="font-[Kanit] text-[44px] ">
                     Join our <br></br>

@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
   return (
     <div className={styles.wrapper}>
       <Navbar />
-      <div className=''>{children}</div>
+      <div className='min-h-screen'>{children}</div>
       <Footer />
     </div>
   );

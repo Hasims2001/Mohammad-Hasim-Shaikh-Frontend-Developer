@@ -18,12 +18,16 @@ const config: Config = {
         coffee200: "rgba(219, 184, 0, 0.20)",
         coffee300: "#211D0D",
         gray100: "rgba(255, 255, 255, 0.31)",
+        gray200: "#CFCFCF",
         yellow200: "#FFC603",
         yellow300: "#F9D326",
         yellow400: "#FECC00",
         white: '#ffffff', 
         black: "#000000" ,
-        black100: '#0D0E11'
+        black100: '#0D0E11',
+        black200: "#141411",
+        black300: "#0E0E0E",
+        black400: "#1C1C1C"
       },
       
     },
