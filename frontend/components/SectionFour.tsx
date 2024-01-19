@@ -15,7 +15,7 @@ export const SectionFour = () => {
     const [data, setData] = useState<CoinData[]>([]);
     const apiCall = async () => {
         try {
-          const res = await fetch("http://localhost:8080/");
+          const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`);
           const data = await res.json();
           if(!data.issue){
             setData(data.data);
