@@ -5,6 +5,7 @@ import { LineSVG } from './svgs/LineSVG'
 import { PhaseSVG } from './svgs/PhaseSVG'
 import { RectangleSVG } from './svgs/RectangleSVG'
 import { ArrowLeftCircle, ArrowRightCircle } from 'lucide-react'
+import { QoutesSVG } from './svgs/QoutesSVG'
 
 const data = [
     {
@@ -57,12 +58,12 @@ export const SectionThree = () => {
         setVisibleIndex((prevIndex) => (prevIndex - 3 >= 0 ? prevIndex - 3 : data.length - 3));
       };
  return  (
-    <div className=''  style={{background: "linear-gradient(180deg, #FECC00 0%, #FECC00 71.23%, #0E0E0E 67.33%, rgba(14, 14, 14, 0.00) 100%)"}}>
+    <div className='relative'  style={{background: "linear-gradient(180deg, #FECC00 0%, #FECC00 71.23%, #0E0E0E 71.33%, #0E0E0E 100%)"}}>
         <div className='py-[60px] w-fit relative px-[112px]'>
         <h4 className='text-[56px]  text-black font-semibold font-[Kanit]'>Roadmap  <span className='absolute left-[210px] top-[135px]'><Vector_2SVG /></span></h4>
        
         </div>
-
+        <span className='absolute right-0 top-14 ' ><QoutesSVG /></span>
         <div className='flex overflow-x-hidden self-stretch relative  items-center self-stretch pt-[115px] pl-[80px]  scrollbar-hide'>
             <button className='absolute left-4 top-2/2 transform -translate-y-2/2' onClick={handlePrev}>
             <ArrowLeftCircle size={44} />
@@ -70,7 +71,7 @@ export const SectionThree = () => {
             <CircleSVG /><LineSVG />
             {data.slice(visibleIndex, visibleIndex + 3).map((item, ind)=>(
                 <>
-                <div key={item.id} className='relative min-h-[434px]'>
+                <div key={ind} className='relative min-h-[434px]'>
                     <p className='absolute top-[-200px]  left-[80px]  font-[Kanit] text-[200px] font-bold text-yellow400' style={{WebkitTextStrokeWidth: 1, WebkitTextStrokeColor: "rgba(255, 255, 255, 0.40)",  zIndex: 0}}>0{item.id}</p>
                     <div className='flex z-10 flex-col items-center p-[24px] rounded-[20px] bg-black500 relative ' style={{zIndex: 1}}>
                        <span className='absolute top-[-20px]'><RectangleSVG /></span>

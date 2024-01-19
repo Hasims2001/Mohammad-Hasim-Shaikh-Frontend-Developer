@@ -63,7 +63,7 @@ export const SectionFour = () => {
                 </table>
                 
               </div>
-              <CardButton values='Details' className='self-center mt-8 ' />
+              <span className='text-center mt-8 mx-[auto]'><CardButton values='Details' className='self-center' /></span>
             </div>
           ))}
         </div>

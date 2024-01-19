@@ -39,7 +39,7 @@ const data = [
 ]
 export const SectionTwo = () => {
   return (
-    <div className='my-36 relative '>
+    <div className='py-36 relative bg-black200'>
         <span className='absolute top-2/3  transform -translate-y-1/4'><MultiSquaresSVG /></span>
         <div className='relative'>
         <h4 className='font-[Kanit] text-[56px] text-center font-semibold '>

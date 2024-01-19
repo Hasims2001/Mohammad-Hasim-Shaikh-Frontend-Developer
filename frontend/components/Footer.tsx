@@ -8,7 +8,8 @@ export default function Footer(){
 
     return (
         
-        <div className="m-[auto] pt-80 bg-black300">
+        <div className="m-[auto] pt-80 bg-black300 relative">
+             <Image  src={"/world.png"} width={300} height={300} alt="world" className="absolute top-0" />
             <div className={styles.container}>
                 <p className="font-[Kanit] text-[44px] ">
                     Join our <br></br>
@@ -31,6 +32,7 @@ export default function Footer(){
         <LogoSVG  width={146} height={146} />
         <p className="opacity-70 text-2xl">2023 All rights reserved</p>
         </div>
+       
         </div>
     )
 }
