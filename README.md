@@ -1,6 +1,6 @@
 # The Matrix Labs
 
-Recipe Swap is a community-based recipe sharing platform that allows users to share, discover, and discuss various recipes. Whether you're a cooking enthusiast or just looking for new culinary ideas, Recipe Swap provides a platform to connect and exchange recipes with others.
+
 
 ## Table of Contents
 - [Tech Stack](#Tech-stack)
@@ -26,28 +26,32 @@ Recipe Swap is a community-based recipe sharing platform that allows users to sh
 
 # Front-end:
 
-- **Link:** 
+- **Link:** https://matrixlabs-backend.vercel.app/
 
 # Back-end:
 
-- **Server:** 
+- **Server:** https://matrixlab-backend.vercel.app/
 
 
 ## Screenshot
+![image](https://github.com/Hasims2001/Mohammad-Hasim-Shaikh-Frontend-Developer/assets/58412185/044537c5-020d-43f5-b588-50b1cec20999)
 
+![image](https://github.com/Hasims2001/Mohammad-Hasim-Shaikh-Frontend-Developer/assets/58412185/fef827cc-514d-429b-8421-108a38b970fe)
+
+![image](https://github.com/Hasims2001/Mohammad-Hasim-Shaikh-Frontend-Developer/assets/58412185/97cbb231-8630-465d-b9d4-cbd6b65a2bec)
 
 
 ## Installation
 To set up the project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository, open terminal:
 
 ```bash
-git clone 
+git clone https://github.com/Hasims2001/Mohammad-Hasim-Shaikh-Frontend-Developer.git
 ```
 
 ```bash
-cd 
+cd frontend
 ```
 
 run command in terminal
@@ -57,7 +61,7 @@ npm install
 
 run project
 ```
-npm start
+npm run dev
 ```
 
 
