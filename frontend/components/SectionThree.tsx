@@ -24,21 +24,21 @@ const data = [
     {
         "id": 3,
         "heading":"PHASE-3",
-        "title": "Bitapad & Rollout",
+        "title": "Initial Design and Development",
         "tag": "Q2 2024",
         "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada",
     },
    
     {
         "id": 4,
-        "heading":"PHASE-2",
+        "heading":"PHASE-4",
         "title": "Release and Testing of  Bita Market & Bridge",
         "tag": "Q1 2024",
         "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada ",
     },
     {
         "id": 5,
-        "heading":"PHASE-1",
+        "heading":"PHASE-5",
         "title": "Initial Design and Development",
         "tag": "Q4 2023",
         "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada Pellentesque habitant morbi tristique senectus et netus et malesuada",
