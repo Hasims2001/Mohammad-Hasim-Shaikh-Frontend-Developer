@@ -1,15 +1,15 @@
-import React, { ReactNode } from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import styles from "@/styles/Layout.module.css"
-interface LayoutProps  {
- children: ReactNode
+import React, { ReactNode } from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import styles from "@/styles/Layout.module.css";
+interface LayoutProps {
+  children: ReactNode;
 }
-const Layout: React.FC<LayoutProps> = ({children}) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className={styles.wrapper}>
       <Navbar />
-      <div className='min-h-screen'>{children}</div>
+      <div className="min-h-screen">{children}</div>
       <Footer />
     </div>
   );

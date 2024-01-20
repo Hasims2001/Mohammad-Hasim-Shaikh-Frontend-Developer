@@ -3,7 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
 body {
   margin: 0;
   padding: 0;
