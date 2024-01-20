@@ -1,8 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-interface UseObserverProps {
-  threshold?: number;
-}
 
 const useObserver = () => {
   const [animated, setAnimated] = useState(false);

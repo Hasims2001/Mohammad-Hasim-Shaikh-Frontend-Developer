@@ -6,7 +6,7 @@ import { PhaseSVG } from "./svgs/PhaseSVG";
 import { RectangleSVG } from "./svgs/RectangleSVG";
 import { QoutesSVG } from "./svgs/QoutesSVG";
 import useObserver from "./useObserver";
-
+import styled from '@/styles/SectionThree.module.css';
 const data = [
   {
     id: 1,
@@ -105,15 +105,14 @@ export const SectionThree = () => {
       <div
         className={`flex overflow-x-auto items-center scrollbar-hide pt-[155px] pl-[80px]  ${
           animated ? "animate-fadeInRight" : ""
-        }`}
+        } ${styled.container}`}
         ref={parentRef}
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
        
       >
-        <CircleSVG />
-        <LineSVG />
+        
         {data.map((item, ind) => (
           <span key={ind} className="flex items-center">
             <div className="relative min-h-[434px]">
